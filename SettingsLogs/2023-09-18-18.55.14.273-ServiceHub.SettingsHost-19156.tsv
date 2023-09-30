@@ -1,0 +1,58 @@
+VisualStudio.17.Release/17.7.4+34031.279
+2023-09-18 18:55:14.2629625	ServiceHub.SettingsHost	19156	8	Info	Initialize Ide User context
+2023-09-18 18:55:14.2769642	ServiceHub.SettingsHost	19156	8	Info	>>> Started watcher
+2023-09-18 18:55:14.2849624	ServiceHub.SettingsHost	19156	8	Info	Initial IdeUser State is SignedIn
+2023-09-18 18:55:14.2859659	ServiceHub.SettingsHost	19156	8	Info	Initialize Offline Ide User Session
+2023-09-18 18:55:14.2859659	ServiceHub.SettingsHost	19156	8	Info	ProfileMonitor associated, Core Profile 0 Profile 432637353
+2023-09-18 18:55:14.2859659	ServiceHub.SettingsHost	19156	8	Info	Initiating polling for SignIn
+2023-09-18 18:55:14.2869663	ServiceHub.SettingsHost	19156	23	Info	Poll for SignIn
+2023-09-18 18:55:14.2869663	ServiceHub.SettingsHost	19156	23	Info	Poll to connect (IdeUserV4)
+2023-09-18 18:55:14.2869663	ServiceHub.SettingsHost	19156	23	Info	Connect Async (IdeUserV4)
+2023-09-18 18:55:14.2869663	ServiceHub.SettingsHost	19156	23	Info	Manager ServerUri 'https://go.microsoft.com/fwlink/?LinkID=661311'
+2023-09-18 18:55:14.4159655	ServiceHub.SettingsHost	19156	9	Info	SettingsController received InitAsync call from client bce3e19f-1fb5-4896-95ef-bf8716824340
+2023-09-18 18:55:14.4159655	ServiceHub.SettingsHost	19156	8	Info	SettingsController received InitAsync call from client 1f77beb1-143b-441f-9a82-0f31d5257bfa
+2023-09-18 18:55:14.4529641	ServiceHub.SettingsHost	19156	13	Info	Resolved fwlink https://go.microsoft.com/fwlink/?LinkID=661311 to https://app.vssps.visualstudio.com/
+2023-09-18 18:55:14.4529641	ServiceHub.SettingsHost	19156	13	Info	Unresolved FW Link 'https://go.microsoft.com/fwlink/?LinkID=661311' was resolved to 'https://app.vssps.visualstudio.com/'
+2023-09-18 18:55:14.4609657	ServiceHub.SettingsHost	19156	25	Info	Processing context state change to SignedIn
+2023-09-18 18:55:14.4639647	ServiceHub.SettingsHost	19156	8	Info	Incrementing success count for Settings.GetSetting
+2023-09-18 18:55:14.4639647	ServiceHub.SettingsHost	19156	8	Info	SettingsController received GetSettingAsync call for Connected.Accounts.IdentityServiceV3 from client 1f77beb1-143b-441f-9a82-0f31d5257bfa: returning value 
+2023-09-18 18:55:14.4639647	ServiceHub.SettingsHost	19156	19	Info	Incrementing success count for Settings.GetSetting
+2023-09-18 18:55:14.4639647	ServiceHub.SettingsHost	19156	19	Info	SettingsController received GetSettingAsync call for Connected.Accounts.GitHub.IdentityService from client 1f77beb1-143b-441f-9a82-0f31d5257bfa: returning value [{"Key":"https://github.com/120429368","Value":{"Stale":false,"IsPersonalizationAccount":false,"Properties":{"ProviderBaseUrl":"https://github.com","APIUrl":"https://api.github.com/","Scopes":"gist,read:org,repo,user,workflow,write:public_key","Username":"pk6x","GitHubAccountId":"120429368","GitHubOrganizations":"[]"},"DisplayInfo":{"UserName":"pk6x","DisplayName":"pk6x","ProviderContextText":"GitHub","ProviderLogo":null,"UserLogo":null},"UniqueId":"https://github.com/120429368","ProviderId":"edadf786-7132-426f-80df-dd1cf206963c"}}]
+2023-09-18 18:55:14.4759681	ServiceHub.SettingsHost	19156	13	Info	Connector initiating silent Ide connection
+2023-09-18 18:55:14.4859661	ServiceHub.SettingsHost	19156	7	Info	Created Online Settings
+2023-09-18 18:55:14.4899644	ServiceHub.SettingsHost	19156	4	Info	Awaiting first connection attempt in WaitForFirstRefreshAsync
+2023-09-18 18:55:14.4899644	ServiceHub.SettingsHost	19156	4	Info	Wait For First Connect Attempt
+2023-09-18 18:55:14.4899644	ServiceHub.SettingsHost	19156	4	Info	Connect Async Piggyback (IdeUserV4)
+2023-09-18 18:55:14.4929648	ServiceHub.SettingsHost	19156	22	Info	SettingsController received GetMultipleSettingsAsync call for modifiedAfter = 776 from client bce3e19f-1fb5-4896-95ef-bf8716824340
+2023-09-18 18:55:15.4542976	ServiceHub.SettingsHost	19156	33	Info	user authentication successful for IDE user
+2023-09-18 18:55:16.1327915	ServiceHub.SettingsHost	19156	33	Info	a.mgundam78@gmail.com signed in for IDE user
+2023-09-18 18:55:16.1327915	ServiceHub.SettingsHost	19156	33	Info	VS user ID = d741d0f6-803d-64a4-8ab7-a43f5a840b40
+2023-09-18 18:55:16.2457940	ServiceHub.SettingsHost	19156	33	Info	Using profile polling interval from server: '1440'
+2023-09-18 18:55:16.2457940	ServiceHub.SettingsHost	19156	33	Info	Save registry identity
+2023-09-18 18:55:16.2457940	ServiceHub.SettingsHost	19156	33	Info	ProfileMonitor connected
+2023-09-18 18:55:16.2457940	ServiceHub.SettingsHost	19156	33	Info	Initiating polling for profile
+2023-09-18 18:55:16.2457940	ServiceHub.SettingsHost	19156	33	Info	Refresh Online Settings (newer than version 432637353)
+2023-09-18 18:55:16.2477997	ServiceHub.SettingsHost	19156	33	Info	GetProfileAttributes. Container: VisualStudio.14 Revision: 432637353 Scope: Application
+2023-09-18 18:55:16.2557963	ServiceHub.SettingsHost	19156	4	Info	Attempting Push Subscription
+2023-09-18 18:55:16.2557963	ServiceHub.SettingsHost	19156	33	Info	Refresh from WaitForFirstRefreshAsync
+2023-09-18 18:55:16.2557963	ServiceHub.SettingsHost	19156	33	Info	Settings refresh is piggybacked
+2023-09-18 18:55:16.4967914	ServiceHub.SettingsHost	19156	32	Info	Waiting for pendingDownloadCategoriesLock in OnSettingsChangedAsync
+2023-09-18 18:55:16.4967914	ServiceHub.SettingsHost	19156	32	Info	Clearing pending-download flags and starting upload processor if necessary
+2023-09-18 18:55:16.5197919	ServiceHub.SettingsHost	19156	32	Info	OnlineSynchronizer downloaded 0 settings newer than 432637353
+2023-09-18 18:55:16.5397904	ServiceHub.SettingsHost	19156	19	Info	Incrementing success count for Settings.GetMultipleSettings
+2023-09-18 18:55:16.5907932	ServiceHub.SettingsHost	19156	6	Info	SettingsController received PutSettingAsync call for CodeContainers.Offline:776 = [{"Key":"D:\\personal_projects\\programming\\CCPP\\aamg_my_small_programs\\aamg_opengl_Imgui32\\aamg_opengl_Imgui.sln","Value":{"LocalProperties":{"FullPath":"D:\\personal_projects\\programming\\CCPP\\aamg_my_small_programs\\aamg_opengl_Imgui32\\aamg_opengl_Imgui.sln","Type":0,"SourceControl":null},"Remote":null,"IsFavorite":false,"LastAccessed":"2023-09-18T17:55:12.4929645+00:00","IsLocal":true,"HasRemote":false,"IsSourceControlled":false}},{"Key":"D:\\personal_projects\\programming\\CCPP\\aamg_my_small_programs\\aamg_opengl_Imgui32\\aamg_opengl_Imgui\\aamg_opengl_Imgui.sln","Value":{"LocalProperties":{"FullPath":"D:\\personal_projects\\programming\\CCPP\\aamg_my_small_programs\\aamg_opengl_Imgui32\\aamg_opengl_Imgui\\aamg_opengl_Imgui.sln","Type":0,"SourceControl":null},"Remote":null,"IsFavorite":false,"LastAccessed":"2023-09-17T06:49:47.0434817+00:00","IsLocal":true,"HasRemote":false,"IsSourceControlled":false}}] (machineLocal True) from client bce3e19f-1fb5-4896-95ef-bf8716824340
+2023-09-18 18:55:16.6057945	ServiceHub.SettingsHost	19156	7	Info	[StoreUpdate] setting 'CodeContainers.Offline' in 'shared store for VisualStudio.17.Release/17.7.4+34031.279' triggered by source 'client bce3e19f-1fb5-4896-95ef-bf8716824340 calling service module PutSettingAsync method' online revision 0 local revision 777 machinelocal:True hash -826167210 value '[{"Key":"D:\\personal_projects\\programming\\CCPP\\aamg_my_small_programs\\aamg_opengl_Imgui32\\aamg_opengl_Imgui.sln","Value":{"LocalProperties":{"FullPath":"D:\\personal_projects\\programming\\CCPP\\aamg_my_small_programs\\aamg_opengl_Imgui32\\aamg_opengl_Imgui.sln","Type":0,"SourceControl":null},"Remote":null,"IsFavorite":false,"LastAccessed":"2023-09-18T17:55:12.4929645+00:00","IsLocal":true,"HasRemote":false,"IsSourceControlled":false}},{"Key":"D:\\personal_projects\\programming\\CCPP\\aamg_my_small_programs\\aamg_opengl_Imgui32\\aamg_opengl_Imgui\\aamg_opengl_Imgui.sln","Value":{"LocalProperties":{"FullPath":"D:\\personal_projects\\programming\\CCPP\\aamg_my_small_programs\\aamg_opengl_Imgui32\\aamg_opengl_Imgui\\aamg_opengl_Imgui.sln","Type":0,"SourceControl":null},"Remote":null,"IsFavorite":false,"LastAccessed":"2023-09-17T06:49:47.0434817+00:00","IsLocal":true,"HasRemote":false,"IsSourceControlled":false}}]'
+2023-09-18 18:55:16.6107897	ServiceHub.SettingsHost	19156	7	Info	Incrementing success count for Settings.PutSetting
+2023-09-18 18:55:16.6107897	ServiceHub.SettingsHost	19156	7	Info	Setting 'CodeContainers.Offline' = [{"Key":"D:\\personal_projects\\programming\\CCPP\\aamg_my_small_programs\\aamg_opengl_Imgui32\\aamg_opengl_Imgui.sln","Value":{"LocalProperties":{"FullPath":"D:\\personal_projects\\programming\\CCPP\\aamg_my_small_programs\\aamg_opengl_Imgui32\\aamg_opengl_Imgui.sln","Type":0,"SourceControl":null},"Remote":null,"IsFavorite":false,"LastAccessed":"2023-09-18T17:55:12.4929645+00:00","IsLocal":true,"HasRemote":false,"IsSourceControlled":false}},{"Key":"D:\\personal_projects\\programming\\CCPP\\aamg_my_small_programs\\aamg_opengl_Imgui32\\aamg_opengl_Imgui\\aamg_opengl_Imgui.sln","Value":{"LocalProperties":{"FullPath":"D:\\personal_projects\\programming\\CCPP\\aamg_my_small_programs\\aamg_opengl_Imgui32\\aamg_opengl_Imgui\\aamg_opengl_Imgui.sln","Type":0,"SourceControl":null},"Remote":null,"IsFavorite":false,"LastAccessed":"2023-09-17T06:49:47.0434817+00:00","IsLocal":true,"HasRemote":false,"IsSourceControlled":false}}]
+2023-09-18 18:55:16.6137916	ServiceHub.SettingsHost	19156	32	Info	Sending SettingChanged pubsub message from settings service module for change from client bce3e19f-1fb5-4896-95ef-bf8716824340: CodeContainers.Offline
+2023-09-18 18:55:16.6197924	ServiceHub.SettingsHost	19156	9	Info	Incrementing success count for Settings.GetSetting
+2023-09-18 18:55:16.6197924	ServiceHub.SettingsHost	19156	9	Info	SettingsController received GetSettingAsync call for CodeContainers.Offline from client bce3e19f-1fb5-4896-95ef-bf8716824340: returning value [{"Key":"D:\\personal_projects\\programming\\CCPP\\aamg_my_small_programs\\aamg_opengl_Imgui32\\aamg_opengl_Imgui.sln","Value":{"LocalProperties":{"FullPath":"D:\\personal_projects\\programming\\CCPP\\aamg_my_small_programs\\aamg_opengl_Imgui32\\aamg_opengl_Imgui.sln","Type":0,"SourceControl":null},"Remote":null,"IsFavorite":false,"LastAccessed":"2023-09-18T17:55:12.4929645+00:00","IsLocal":true,"HasRemote":false,"IsSourceControlled":false}},{"Key":"D:\\personal_projects\\programming\\CCPP\\aamg_my_small_programs\\aamg_opengl_Imgui32\\aamg_opengl_Imgui\\aamg_opengl_Imgui.sln","Value":{"LocalProperties":{"FullPath":"D:\\personal_projects\\programming\\CCPP\\aamg_my_small_programs\\aamg_opengl_Imgui32\\aamg_opengl_Imgui\\aamg_opengl_Imgui.sln","Type":0,"SourceControl":null},"Remote":null,"IsFavorite":false,"LastAccessed":"2023-09-17T06:49:47.0434817+00:00","IsLocal":true,"HasRemote":false,"IsSourceControlled":false}}]
+2023-09-18 18:55:16.6617907	ServiceHub.SettingsHost	19156	17	Info	Finished processing context state change
+2023-09-18 18:55:18.4311020	ServiceHub.SettingsHost	19156	33	Info	Subscribed to Push Notifications for ProfileAttributeUpdate
+2023-09-18 18:55:18.4321016	ServiceHub.SettingsHost	19156	33	Info	Attempting Push Subscription
+2023-09-18 18:55:18.4321016	ServiceHub.SettingsHost	19156	33	Info	Subscribed to Push Notifications for ProfileCoreAttributeUpdate
+2023-09-18 18:55:18.4321016	ServiceHub.SettingsHost	19156	33	Info	Attempting Push Subscription
+2023-09-18 18:55:18.4321016	ServiceHub.SettingsHost	19156	33	Info	Subscribed to Push Notifications for ProfileUpdate
+2023-09-18 21:37:24.9699267	ServiceHub.SettingsHost	19156	49	Info	Received push notification ProfileAttributeUpdate
+2023-09-18 21:37:24.9699267	ServiceHub.SettingsHost	19156	49	Info	GetProfileAttributes. Container: VisualStudio.14 Revision: 432637353 Scope: Core, Application
+2023-09-18 21:37:27.1609506	ServiceHub.SettingsHost	19156	69	Info	Save registry identity

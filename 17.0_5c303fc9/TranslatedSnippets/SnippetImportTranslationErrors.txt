@@ -1,0 +1,8 @@
+16/09/2023 12:10:28: Exception Encountered: Source = c:\program files\microsoft visual studio\2022\community\common7\ide\commonextensions\microsoft\textmate\Starterkit\Extensions\bat\snippets ; Message = Source file extension not supported for translation
+
+16/09/2023 12:20:16: Exception Encountered: Source = c:\program files\microsoft visual studio\2022\community\common7\ide\commonextensions\microsoft\textmate\Starterkit\Extensions\bat\snippets ; Message = Source file extension not supported for translation
+
+16/09/2023 21:43:37: Exception Encountered: Source = c:\program files\microsoft visual studio\2022\community\common7\ide\commonextensions\microsoft\textmate\Starterkit\Extensions\bat\snippets ; Message = Source file extension not supported for translation
+
+17/09/2023 08:30:35: Exception Encountered: Source = c:\program files\microsoft visual studio\2022\community\common7\ide\commonextensions\microsoft\textmate\Starterkit\Extensions\bat\snippets ; Message = Source file extension not supported for translation
+

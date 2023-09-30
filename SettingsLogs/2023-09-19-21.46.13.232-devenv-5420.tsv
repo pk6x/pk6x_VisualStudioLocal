@@ -1,0 +1,9 @@
+VisualStudio.17.Release/17.7.4+34031.279
+2023-09-19 21:46:13.2315090	devenv	5420	1	Info	Scenario 'Set', action 'SetValueInPrivateStore', step 'SetValueInternalAsync', setting type 'PrivateSetting', setting 'ManagedProjectSystem\UsePreviewSdk', setting value type 'System.Boolean', setting size '21': *System.Boolean*False
+2023-09-19 21:46:17.6187765	devenv	5420	18	Info	Getting ServiceHub settings service from client 7c767ef4-e575-413e-8b6b-5e9ffd82df9d
+2023-09-19 21:46:19.1217680	devenv	5420	56	Info	Highest synced revision: 777
+2023-09-19 21:46:20.8704649	devenv	5420	71	Info	PubSub event 'VsoCoreProfileChanged' received
+2023-09-19 21:46:21.1015792	devenv	5420	66	Info	Downloaded settings: 
+2023-09-19 21:46:21.1955799	devenv	5420	57	Info	PubSub event 'SettingsEvent' received
+2023-09-19 21:46:21.1995810	devenv	5420	57	Info	PubSub event 'SettingsEvent' received
+2023-09-19 21:46:30.8807761	devenv	5420	1	Info	Host is shutting down; disposing RPC channel

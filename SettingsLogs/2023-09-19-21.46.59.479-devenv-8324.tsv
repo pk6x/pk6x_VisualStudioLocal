@@ -1,0 +1,2 @@
+VisualStudio.17.Release/17.7.4+34031.279
+2023-09-19 21:46:59.4790338	devenv	8324	1	Info	Scenario 'Set', action 'SetValueInPrivateStore', step 'SetValueInternalAsync', setting type 'PrivateSetting', setting 'ManagedProjectSystem\UsePreviewSdk', setting value type 'System.Boolean', setting size '21': *System.Boolean*False

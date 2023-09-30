@@ -1,0 +1,48 @@
+VisualStudio.17.Release/17.7.4+34031.279
+2023-09-19 21:46:18.9147658	ServiceHub.SettingsHost	7308	5	Info	Initialize Ide User context
+2023-09-19 21:46:18.9297677	ServiceHub.SettingsHost	7308	5	Info	>>> Started watcher
+2023-09-19 21:46:18.9367688	ServiceHub.SettingsHost	7308	5	Info	Initial IdeUser State is SignedIn
+2023-09-19 21:46:18.9377682	ServiceHub.SettingsHost	7308	5	Info	Initialize Offline Ide User Session
+2023-09-19 21:46:18.9377682	ServiceHub.SettingsHost	7308	5	Info	ProfileMonitor associated, Core Profile 0 Profile 432637353
+2023-09-19 21:46:18.9387660	ServiceHub.SettingsHost	7308	5	Info	Initiating polling for SignIn
+2023-09-19 21:46:18.9387660	ServiceHub.SettingsHost	7308	7	Info	Poll for SignIn
+2023-09-19 21:46:18.9387660	ServiceHub.SettingsHost	7308	7	Info	Poll to connect (IdeUserV4)
+2023-09-19 21:46:18.9397666	ServiceHub.SettingsHost	7308	7	Info	Connect Async (IdeUserV4)
+2023-09-19 21:46:18.9397666	ServiceHub.SettingsHost	7308	7	Info	Manager ServerUri 'https://go.microsoft.com/fwlink/?LinkID=661311'
+2023-09-19 21:46:19.0567661	ServiceHub.SettingsHost	7308	5	Info	SettingsController received InitAsync call from client 7c767ef4-e575-413e-8b6b-5e9ffd82df9d
+2023-09-19 21:46:19.0977694	ServiceHub.SettingsHost	7308	24	Info	Processing context state change to SignedIn
+2023-09-19 21:46:19.1067668	ServiceHub.SettingsHost	7308	25	Info	Created Online Settings
+2023-09-19 21:46:19.1107672	ServiceHub.SettingsHost	7308	25	Info	Awaiting first connection attempt in WaitForFirstRefreshAsync
+2023-09-19 21:46:19.1107672	ServiceHub.SettingsHost	7308	25	Info	Wait For First Connect Attempt
+2023-09-19 21:46:19.1107672	ServiceHub.SettingsHost	7308	25	Info	Connect Async Piggyback (IdeUserV4)
+2023-09-19 21:46:19.1227746	ServiceHub.SettingsHost	7308	10	Info	SettingsController received GetMultipleSettingsAsync call for modifiedAfter = 777 from client 7c767ef4-e575-413e-8b6b-5e9ffd82df9d
+2023-09-19 21:46:19.1247666	ServiceHub.SettingsHost	7308	13	Info	Resolved fwlink https://go.microsoft.com/fwlink/?LinkID=661311 to https://app.vssps.visualstudio.com/
+2023-09-19 21:46:19.1247666	ServiceHub.SettingsHost	7308	13	Info	Unresolved FW Link 'https://go.microsoft.com/fwlink/?LinkID=661311' was resolved to 'https://app.vssps.visualstudio.com/'
+2023-09-19 21:46:19.1457674	ServiceHub.SettingsHost	7308	13	Info	Connector initiating silent Ide connection
+2023-09-19 21:46:19.5257691	ServiceHub.SettingsHost	7308	21	Info	SettingsController received InitAsync call from client b3a760e8-2779-4172-a8d7-edca2c08e15e
+2023-09-19 21:46:20.0907872	ServiceHub.SettingsHost	7308	13	Info	user authentication successful for IDE user
+2023-09-19 21:46:20.7371451	ServiceHub.SettingsHost	7308	13	Info	a.mgundam78@gmail.com signed in for IDE user
+2023-09-19 21:46:20.7371451	ServiceHub.SettingsHost	7308	13	Info	VS user ID = d741d0f6-803d-64a4-8ab7-a43f5a840b40
+2023-09-19 21:46:20.8594789	ServiceHub.SettingsHost	7308	13	Info	Using profile polling interval from server: '1440'
+2023-09-19 21:46:20.8604552	ServiceHub.SettingsHost	7308	13	Info	Save registry identity
+2023-09-19 21:46:20.8604552	ServiceHub.SettingsHost	7308	13	Info	ProfileMonitor connected
+2023-09-19 21:46:20.8604552	ServiceHub.SettingsHost	7308	13	Info	Initiating polling for profile
+2023-09-19 21:46:20.8604552	ServiceHub.SettingsHost	7308	13	Info	Refresh Online Settings (newer than version 432637353)
+2023-09-19 21:46:20.8614648	ServiceHub.SettingsHost	7308	13	Info	GetProfileAttributes. Container: VisualStudio.14 Revision: 432637353 Scope: Application
+2023-09-19 21:46:20.8684634	ServiceHub.SettingsHost	7308	24	Info	Attempting Push Subscription
+2023-09-19 21:46:20.8684634	ServiceHub.SettingsHost	7308	13	Info	Refresh from WaitForFirstRefreshAsync
+2023-09-19 21:46:20.8694640	ServiceHub.SettingsHost	7308	13	Info	Settings refresh is piggybacked
+2023-09-19 21:46:21.0583543	ServiceHub.SettingsHost	7308	12	Info	Waiting for pendingDownloadCategoriesLock in OnSettingsChangedAsync
+2023-09-19 21:46:21.0583543	ServiceHub.SettingsHost	7308	12	Info	Clearing pending-download flags and starting upload processor if necessary
+2023-09-19 21:46:21.0795816	ServiceHub.SettingsHost	7308	12	Info	OnlineSynchronizer downloaded 0 settings newer than 432637353
+2023-09-19 21:46:21.0825791	ServiceHub.SettingsHost	7308	22	Info	Incrementing success count for Settings.GetSetting
+2023-09-19 21:46:21.0825791	ServiceHub.SettingsHost	7308	19	Info	Incrementing success count for Settings.GetSetting
+2023-09-19 21:46:21.0825791	ServiceHub.SettingsHost	7308	22	Info	SettingsController received GetSettingAsync call for Connected.Accounts.GitHub.IdentityService from client b3a760e8-2779-4172-a8d7-edca2c08e15e: returning value [{"Key":"https://github.com/120429368","Value":{"Stale":false,"IsPersonalizationAccount":false,"Properties":{"ProviderBaseUrl":"https://github.com","APIUrl":"https://api.github.com/","Scopes":"gist,read:org,repo,user,workflow,write:public_key","Username":"pk6x","GitHubAccountId":"120429368","GitHubOrganizations":"[]"},"DisplayInfo":{"UserName":"pk6x","DisplayName":"pk6x","ProviderContextText":"GitHub","ProviderLogo":null,"UserLogo":null},"UniqueId":"https://github.com/120429368","ProviderId":"edadf786-7132-426f-80df-dd1cf206963c"}}]
+2023-09-19 21:46:21.0825791	ServiceHub.SettingsHost	7308	19	Info	SettingsController received GetSettingAsync call for Connected.Accounts.IdentityServiceV3 from client b3a760e8-2779-4172-a8d7-edca2c08e15e: returning value 
+2023-09-19 21:46:21.0955797	ServiceHub.SettingsHost	7308	9	Info	Incrementing success count for Settings.GetMultipleSettings
+2023-09-19 21:46:21.1965780	ServiceHub.SettingsHost	7308	10	Info	Finished processing context state change
+2023-09-19 21:46:23.0674589	ServiceHub.SettingsHost	7308	16	Info	Subscribed to Push Notifications for ProfileAttributeUpdate
+2023-09-19 21:46:23.0674589	ServiceHub.SettingsHost	7308	16	Info	Attempting Push Subscription
+2023-09-19 21:46:23.0674589	ServiceHub.SettingsHost	7308	16	Info	Subscribed to Push Notifications for ProfileCoreAttributeUpdate
+2023-09-19 21:46:23.0684599	ServiceHub.SettingsHost	7308	16	Info	Attempting Push Subscription
+2023-09-19 21:46:23.0684599	ServiceHub.SettingsHost	7308	16	Info	Subscribed to Push Notifications for ProfileUpdate

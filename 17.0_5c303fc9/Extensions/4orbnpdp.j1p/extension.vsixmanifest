@@ -1,0 +1,33 @@
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
+  <Metadata>
+    <Identity Id="VisualStudioThemePack.453e3fa1-2e0e-467e-abbd-1d08fe6468d1" Version="1.2" Language="en-US" Publisher="Microsoft DevLabs" />
+    <DisplayName>Visual Studio Theme Pack</DisplayName>
+    <Description xml:space="preserve">Collection of popular themes, now available for Visual Studio.</Description>
+    <Icon>Icon.png</Icon>
+    <Tags>color-theme, theme</Tags>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
+      <ProductArchitecture>amd64</ProductArchitecture>
+    </InstallationTarget>
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" Version="[4.5,)" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.VsPackage" Path="Abyss.pkgdef" />
+    <Asset Type="Microsoft.VisualStudio.VsPackage" Path="Dark+.pkgdef" />
+    <Asset Type="Microsoft.VisualStudio.VsPackage" Path="Kimbie Dark.pkgdef" />
+    <Asset Type="Microsoft.VisualStudio.VsPackage" Path="Light+.pkgdef" />
+    <Asset Type="Microsoft.VisualStudio.VsPackage" Path="Monokai Dimmed.pkgdef" />
+    <Asset Type="Microsoft.VisualStudio.VsPackage" Path="Monokai.pkgdef" />
+    <Asset Type="Microsoft.VisualStudio.VsPackage" Path="Quiet Light.pkgdef" />
+    <Asset Type="Microsoft.VisualStudio.VsPackage" Path="Red.pkgdef" />
+    <Asset Type="Microsoft.VisualStudio.VsPackage" Path="Solarized Dark.pkgdef" />
+    <Asset Type="Microsoft.VisualStudio.VsPackage" Path="Solarized Light.pkgdef" />
+    <Asset Type="Microsoft.VisualStudio.VsPackage" Path="Tomorrow Night Blue.pkgdef" />
+  </Assets>
+  <Prerequisites>
+    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[17.0,18.0)" DisplayName="Visual Studio core editor" />
+  </Prerequisites>
+</PackageManifest>
